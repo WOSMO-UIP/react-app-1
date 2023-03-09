@@ -1,0 +1,36 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+    border-radius: 6px 6px 6px 6px;
+    width: 600px;
+    height: 30vh;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 55px;
+}
+
+textarea {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 500px;
+    height: 100px;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+    border-radius: 6px 6px 6px 6px;
+    color: aqua;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    transition: background-color 0.2s ease 0s;
+}
+
+
+textarea:focus {
+    background: none repeat scroll 0 0 #09035773;
+    outline-width: 0;
+}
