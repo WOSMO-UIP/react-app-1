@@ -3,13 +3,19 @@ import 'bootstrap/dist/css/bootstrap.css'
 import React, {useState} from 'react';
 const Counter = (props) => {
   const[text,setText] = useState("enter text here");
-  // setText("NEW TEXT");
+  const handleOnChange = () => {
+    console.log("Clicked");
+  }
+  const handleUpClick = () => {
+    setText(event.target.value);
+  }
+  
   return (
-    <div className="container bg-danger ">
+    <div className="container bg-info rounded mt-4">
       <h1>{props.heading}</h1>
-      <textarea className="form-control" placeholder={text}></textarea>
-      <label htmlFor="floatingTextarea">{props.commment}</label>
-      <div className="btn btn-primary">{props.btn}</div>
+      <textarea className="form-control " placeholder={text}></textarea>
+      <label htmlFor="floatingTextarea">{props.comment}</label>
+      <div className="btn btn-primary" onClick={handleUpClick} onChange={handleOnChange}>{props.btn}</div>
     </div>
 
   )
