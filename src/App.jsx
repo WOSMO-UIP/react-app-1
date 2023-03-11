@@ -20,9 +20,9 @@ import Counter from './TextBox/Counter'
 
 import React, { Component } from 'react'
 
-export default class App extends React.Component {
-  render() {
-    return (
+export default class App extends Component {
+  render   () {
+    return(
           <Counter heading="Text box" btn="click me" comment="i am a comment" />  
     )
   }
