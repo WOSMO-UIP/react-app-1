@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 202px;
+    top: 561px;
+    
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+}
+/* .MainBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 400px;
+    background: linear-gradient(45deg,#eeacdb,#746e72);
+    box-shadow: rgba(0, 0, 0, 0.432) 0px 0px 20px;
+    backdrop-filter: blur(10px);
+
+    border-radius: 20px;
+}
+button{
+    
+    width: 80%;
+    background:#ff00aa;
+    border: none;
+} */
+
+.circle1 {
+  position: absolute;
+  width: 176px;
+  height: 232px;
+  left: -148px;
+  top: -104px;
+
+  background: rgba(23, 233, 182, 0.67);
+  filter: blur(125px);
+}
+.circle2 {
+  position: absolute;
+  width: 176px;
+  height: 232px;
+  left: 519px;
+  top: -104px;
+
+  background: #17e9b6;
+  filter: blur(125px);
+}
+.circle3 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 296px;
+  height: 189px;
+  left: -187px;
+  top: 782px;
+
+  background: rgba(233, 29, 176, 0.97);
+  border: 1px solid #000000;
+  filter: blur(175px);
+}
+.circle4 {
+  position: absolute;
+  width: 176px;
+  height: 232px;
+  left: 407px;
+  top: 739px;
+
+  background: rgba(23, 233, 182, 0.67);
+  filter: blur(125px);
+}
